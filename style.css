@@ -32,3 +32,36 @@ body{
 .appIcon{
     width: 9.37em;
 }
+
+.appTitle{
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+}
+
+input#amount {
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: #9ec19e;   
+    margin-bottom: 2em;
+    padding: 0.5em; 
+}
+
+input#amount:focus {
+    color:#9ec19e;
+    border-color: #51cd60;
+}
+
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1em;
+}
